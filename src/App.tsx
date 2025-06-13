@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   AppBar,
@@ -42,8 +42,7 @@ import {
   FolderOpen as FolderOpenIcon,
   School as SchoolIcon,
   Person as PersonIcon,
-  Close as CloseIcon,
-  Info as InfoIcon
+  Close as CloseIcon
 } from '@mui/icons-material';
 import { RootState } from './store';
 import { agregarDrive } from './store/drivesSlice';
